@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.marcello.dao.UserDao">
+    <!-- 批量查询-->
+    <resultMap id="UserResultMap" type="com.marcello.entity.Std">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="stdNum" property="stdNum" jdbcType="VARCHAR"/>
+        <result column="stdSex" property="stdSex" jdbcType="VARCHAR"/>
+        <result column="stdAge" property="stdAge" jdbcType="INTEGER"/>
+        <result column="stdTel" property="stdTel" jdbcType="VARCHAR"/>
+        <result column="difference" property="difference" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <!--定义字段 -->
+    <sql id="Std_Column_List">
+        id,stdNum,stdSex,stdAge,stdTel,difference
+    </sql>
+
+    <!-- 查询所有用户记录-->
+    <select id="queryStdWithMap" resultMap="UserResultMap">
+        SELECT * FROM studentoccasion ORDER BY id
+    </select>
+
+    <!--查询用户记录总数-->
+    <select id="selectCount" resultType="int">
+        SELECT COUNT(*) FROM studentoccasion
+    </select>
+
+    <!-- 根据分页数据start 和size查询数据 -->
+    <select id="findByPage" parameterType="Map" resultMap="UserResultMap">
+        SELECT
+        <include refid="Std_Column_List" />
+        FROM studentoccasion
+        <if test="start!=null and size!=null ">
+                limit #{start},#{size}
+        </if>
+    </select>
+
+    <!-- 批量新增-->
+    <insert id="passStd" parameterType="java.util.List" useGeneratedKeys="true">
+        INSERT INTO student (stdNum,stdSex,stdAge,stdTel,difference,date)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.stdNum},#{item.stdSex},#{item.stdAge},#{item.stdTel},#{item.difference},CURRENT_DATE)
+        </foreach>
+    </insert>
+
+    <!-- 批量删除-->
+    <delete id="refuseStd" parameterType="Integer">
+        DELETE FROM studentoccasion WHERE
+        <foreach item="check_value" collection="array" open="ID in (" separator="," close=")">
+            #{check_value}
+        </foreach>
+    </delete>
+
+    <!--单个添加用户-->
+    <insert id="addStd" parameterType="Std">
+        INSERT INTO student (stdNum,stdSex,stdAge,stdTel,difference,stdPwd,date )
+        VALUES (#{stdNum},#{stdSex},#{stdAge},#{stdTel},#{difference},#{stdPwd},CURRENT_DATE)
+    </insert>
+
+    <!--单个删除用户-->
+    <delete id="deleteStd" parameterType="String">
+        DELETE FROM studentoccasion WHERE stdNum=#{stdNum}
+    </delete>
+
+    <!--单个查询-->
+    <select id="findStd" parameterType="std" resultType="std">
+        SELECT * FROM studentoccasion WHERE stdNum=#{stdNum}
+    </select>
+
+</mapper>

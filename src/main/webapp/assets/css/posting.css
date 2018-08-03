@@ -1,0 +1,55 @@
+.messageArea{
+    background-color:#FFFFFF;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.mmm{
+    width:300px;
+    height:80px;
+}
+.xxx{
+    float:left;
+    width:80px;
+    height:80px;
+}
+.yyy{
+    float:left;
+    width:200px;
+    height:80px;
+}
+.yyy1{
+    margin-top:15px;
+    margin-left:10px;
+    font-size:16px;
+
+}
+.yyy1 strong a{
+    font-size:18px;
+    color:black;
+}
+.yyy2{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:14px;
+    color:#C8C8C8
+}
+.say{
+    width:85%;
+    height:auto;
+    margin-left:90px;
+    background-color:#F0F0F0;
+}
+.say p {
+    text-indent: 32px;
+    word-wrap: normal;
+    word-break: break-all;
+    color: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: auto;
+}
+.say a{
+    margin-left:90%;
+    color:orange;
+}
+

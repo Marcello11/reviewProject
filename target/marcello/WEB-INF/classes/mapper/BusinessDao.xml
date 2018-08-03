@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.marcello.dao.BusinessDao">
+
+    <resultMap id="BssResultMap" type="business">
+        <id column="id" property="id"/>
+        <result column="bssName" property="bssName" />
+        <result column="bssTel" property="bssTel" />
+        <result column="date" property="date" />
+    </resultMap>
+
+    <sql id="Business_Column_List">
+        id,bssName,bssTel,date
+    </sql>
+
+    <select id="findBssByNameAndPassWord" parameterType="Business" resultType="business">
+        SELECT * FROM business WHERE bssName=#{bssName} AND bssPwd=#{bssPwd}
+    </select>
+
+    <insert id="addBusiness" parameterType="business">
+        INSERT INTO businessoccasion (bssName, bssTel, bssPwd, "date")
+        VALUES(#{bssName},#{bssTel},#{bssPwd},CURRENT_DATE )
+    </insert>
+
+    <select id="findBusinessByName" parameterType="String" resultType="business">
+        SELECT * FROM business WHERE bssName=#{bssName}
+    </select>
+
+    <select id="findBusinessById" parameterType="int" resultType="business">
+        SELECT * FROM businessoccasion WHERE id=#{id}
+    </select>
+
+    <select id="findOccasionByPage" parameterType="Map" resultMap="BssResultMap">
+        SELECT
+        <include refid="Business_Column_List" />
+        FROM businessoccasion
+        <if test="start!=null and size!=null ">
+            limit #{start},#{size}
+        </if>
+    </select>
+
+    <select id="findBssByPage" parameterType="Map" resultMap="BssResultMap">
+        SELECT
+        <include refid="Business_Column_List" />
+        FROM business
+        <if test="start!=null and size!=null ">
+            limit #{start},#{size}
+        </if>
+    </select>
+
+    <select id="selectOccasionCount" resultType="int">
+        SELECT COUNT(*) FROM businessoccasion
+    </select>
+
+    <select id="selectCount" resultType="int" >
+        SELECT COUNT(*) FROM business
+    </select>
+
+    <insert id="passBusiness" parameterType="business">
+        INSERT INTO business (bssName, bssTel, bssPwd, date)
+        VALUES(#{bssName},#{bssTel},#{bssPwd},CURRENT_DATE )
+    </insert>
+
+    <delete id="refuseBusiness" parameterType="int">
+        DELETE FROM businessoccasion WHERE id=#{id}
+    </delete>
+
+    <delete id="deleteBusiness" parameterType="int">
+        DELETE FROM business WHERE id=#{id}
+    </delete>
+
+
+</mapper>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.marcello.dao.PostingDao">
+
+    <resultMap id="PostingResultMap" type="posting">
+        <id column="pid" property="id"/>
+        <result column="bssName" property="bssName"/>
+        <result column="bssMsg" property="bssMsg"/>
+        <result column="date" property="date"/>
+        <collection property="replys" javaType="list" ofType="reply">
+            <id column="rid" property="id"/>
+            <result column="name" property="name" jdbcType="VARCHAR" />
+            <result column="content" property="content" jdbcType="VARCHAR" />
+            <result column="date" property="date" />
+        </collection>
+    </resultMap>
+
+    <resultMap id="PostingMap" type="posting">
+        <id column="ID" property="id"/>
+        <result column="bssName" property="bssName" />
+        <result column="bssMsg" property="bssMsg" />
+        <result column="date" property="date"  />
+    </resultMap>
+
+    <insert id="publishPost" parameterType="posting">
+        INSERT INTO messageoccasion (bssName,bssMsg,date)
+       VALUES (#{bssName},#{bssMsg},#{date})
+    </insert>
+
+    <select id="findById" parameterType="posting" resultType="posting">
+        SELECT * FROM messageoccasion WHERE id=#{id}
+    </select>
+
+   <insert id="addPosting" parameterType="posting">
+       INSERT INTO businessmessage (bssName,bssMsg,date)
+       VALUES (#{bssName},#{bssMsg},#{date})
+   </insert>
+
+    <delete id="deletePosting" parameterType="int">
+        DELETE FROM messageoccasion WHERE id=#{id}
+    </delete>
+
+    <select id="postOccasion" resultMap="PostingMap">
+        SELECT * FROM messageoccasion ORDER BY id;
+    </select>
+
+    <select id="getPostList" resultMap="PostingResultMap">
+        SELECT p.id pid,p.bssName,p.bssMsg,p.date,r.id rid,r.name,r.content,r.date
+        FROM businessmessage p
+        LEFT JOIN reply r
+        ON r.msgid=p.id
+        ORDER BY p.date
+    </select>
+
+    <insert id="addReply" parameterType="reply">
+        INSERT INTO reply (msgid, name,content,date)
+        VALUES (#{msgid},#{name},#{content},CURRENT_DATE )
+    </insert>
+
+    <select id="findPostByTitle" parameterType="posting" resultType="posting">
+        SELECT * FROM businessmessage WHERE bssTitle=#{bssTitle}
+    </select>
+
+    <select id="findReply" resultMap="PostingResultMap">
+        SELECT p.id pid,r.id rid,r.name,r.content,r.date
+        FROM businessmessage p
+        LEFT JOIN reply r
+        ON p.id=r.msgid
+        WHERE r.msgid=#{msgid}
+    </select>
+
+    <select id="findPostByUser" parameterType="posting" resultType="posting">
+        SELECT * FROM businessmessage WHERE bssName=#{bssName}
+    </select>
+</mapper>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.marcello.dao.ManagerDao">
+
+    <resultMap id="SecResultMap" type="section">
+        <id column="id" property="id"/>
+        <result column="sectionName" property="sectionName" />
+        <result column="sectionTel" property="sectionTel" />
+        <result column="date" property="date" />
+    </resultMap>
+
+    <sql id="Sec_Column_List">
+        id,sectionName,sectionTel,date
+    </sql>
+
+    <select id="findManagerByNameAndPassword" parameterType="Manager" resultType="manager">
+        SELECT * FROM manager WHERE managerId=#{managerId} AND managerPwd=#{managerPwd}
+    </select>
+
+    <select id="findSectionByNameAndPassword" parameterType="section" resultType="section">
+        SELECT * FROM section WHERE sectionName=#{sectionName} AND sectionPwd=#{sectionPwd}
+    </select>
+
+    <select id="selectCount" resultType="int" >
+        SELECT COUNT(*) FROM section
+    </select>
+
+    <select id="findSectionByPage" parameterType="Map" resultMap="SecResultMap">
+        SELECT
+        <include refid="Sec_Column_List" />
+        FROM section
+        <if test="start!=null and size!=null ">
+            limit #{start},#{size}
+        </if>
+    </select>
+
+    <delete id="deleteSection" parameterType="int">
+        DELETE FROM section WHERE id=#{id}
+    </delete>
+</mapper>

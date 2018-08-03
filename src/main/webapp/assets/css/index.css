@@ -1,0 +1,18 @@
+.content-author {
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+ .author-ico {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+ .author-info {
+	float:left;
+    padding-left: 50px;
+    position: relative;
+}
