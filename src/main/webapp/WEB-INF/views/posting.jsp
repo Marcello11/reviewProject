@@ -1,3 +1,4 @@
+<%--本页面用于目前的所有信息--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
@@ -135,7 +136,7 @@
                     <ul>
                         <!-- 欢迎语 -->
                         <li class="am-text-sm tpl-header-navbar-welcome">
-                            <a href="javascript:;">欢迎你, <span>Marcello</span> </a>
+                            <a href="javascript:;">欢迎你, <span>${sessionScope.std.stdNum}</span> </a>
                         </li>
                         <!-- 退出 -->
                         <li class="am-text-sm">
@@ -182,7 +183,7 @@
                     </a>
                 </li>
                 <li class="sidebar-nav-link">
-                    <a href="<%=basePath%>/html/upload.jsp">
+                    <a href="/posting/upload" >
                         <i class="am-icon-wpforms sidebar-nav-link-logo"></i>我要发布
 
                     </a>

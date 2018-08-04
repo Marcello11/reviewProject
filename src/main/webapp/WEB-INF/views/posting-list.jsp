@@ -132,7 +132,7 @@
         <!-- 菜单 -->
         <ul class="sidebar-nav">
             <li class="sidebar-nav-link">
-                <a href="/user/student-list" class="active">
+                <a href="/user/student-list" >
                     <i class="am-icon-table sidebar-nav-link-logo"></i>学生信息审核
                 </a>
             </li>
@@ -142,7 +142,7 @@
                 </a>
             </li>
             <li class="sidebar-nav-link">
-                <a href="/posting/postOccasion">
+                <a href="/posting/postOccasion" class="active">
                     <i class="am-icon-table sidebar-nav-link-logo"></i>发布信息审核
                 </a>
             </li>
@@ -159,7 +159,7 @@
                 </a>
             </li>
             <li class="sidebar-nav-link">
-                <a href="/manager/allsection-list">
+                <a href="/managerA/allsection-list">
                     <i class="am-icon-table sidebar-nav-link-logo"></i>部门信息管理
 
                 </a>

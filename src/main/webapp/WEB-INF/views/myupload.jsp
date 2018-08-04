@@ -1,3 +1,4 @@
+<%--本页面用于学生 商户 部门的我发布的信息页面--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
@@ -6,7 +7,6 @@
 <base href="<%=basePath%>">
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,7 +54,8 @@
                     <ul>
                         <!-- 欢迎语 -->
                         <li class="am-text-sm tpl-header-navbar-welcome">
-                            <a href="javascript:;">欢迎你, <span>Marcello</span> </a>
+                            <%--此处需从session中取出当前用户名--%>
+                            <a href="javascript:;">欢迎你, <span>${sessionScope.std.stdNum}</span> </a>
                         </li>
                         <!-- 退出 -->
                         <li class="am-text-sm">
@@ -99,13 +100,13 @@
             <!-- 菜单 -->
             <ul class="sidebar-nav">
                 <li class="sidebar-nav-link">
-                    <a href="/posting/getPosting" class="active">
+                    <a href="/posting/getPosting" >
                         <i class="am-icon-home sidebar-nav-link-logo"></i>全部信息
                     </a>
                 </li>
                 <li class="sidebar-nav-link">
-                    <a href="/posting/myPosting">
-                        <i class="am-icon-table sidebar-nav-link-logo"></i>我发布的
+                    <a href="/posting/myPosting" class="active">
+                        <i class="am-icon-table sidebar-nav-link-logo" ></i>我发布的
                     </a>
                 </li>
                 <li class="sidebar-nav-link">
