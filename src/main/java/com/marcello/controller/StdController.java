@@ -27,13 +27,12 @@ public class StdController {
 
     @RequestMapping(value="/login",method= RequestMethod.POST)
     public ModelAndView login(String username, String password, ModelAndView mv, HttpSession session) {
-
         Std std=new Std();
         std.setStdNum(username);
         std.setStdPwd(password);
         std=stdService.login(std);
 
-    if(std!=null){
+        if(std!=null){
             //登录成功，将user对象设置到HttpSession作用范围域中
             session.setAttribute("std", std);
             //转发到main请求

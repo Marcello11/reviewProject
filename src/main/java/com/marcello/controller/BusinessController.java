@@ -20,7 +20,7 @@ import javax.servlet.http.HttpSession;
  **/
 @Controller
 @RequestMapping("/business")
-public class BusinessController {
+public class BusinessController  {
     @Autowired
     BusinessService businessService;
 

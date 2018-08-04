@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
  * CreateDate 2018/4/17$ 21:23$
  **/
 @Controller
-@RequestMapping("/manager")
+@RequestMapping("/managerA")
 public class ManagerController {
     @Autowired
     ManagerService managerService;
@@ -80,7 +80,7 @@ public class ManagerController {
         return "allsection-list";
     }
 
-    @RequestMapping(value = "deleteSection")
+    @RequestMapping(value = "/deleteSection")
     public String DeleteSection(int id){
         managerService.deleteSection(id);
         return "success";

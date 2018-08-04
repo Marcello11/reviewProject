@@ -7,152 +7,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6668e663-7930-4933-b79a-98e253d727c5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marcello_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/marcello_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/marcello.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/PageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/PostingController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/StdController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/dao/BusinessDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/dao/ManagerDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/dao/PostingDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/dao/StdDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/dao/UserDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/Business.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/Manager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/PageBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/Posting.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/Reply.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/Section.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/entity/Std.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/BusinessService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/ManagerService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/PostingService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/StdService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/impl/BusinessServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/impl/ManagerServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/impl/PostingServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/impl/StdServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/service/impl/UserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BusinessDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ManagerDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PostingDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StdDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allbusiness-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allsection-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/business-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manager.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/myupload.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posting-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posting.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sign-up.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sign-up1.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/admin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/amazeui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/amazeui.datatables.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/amazeui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/app.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/app.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/common.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fullcalendar.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fullcalendar.print.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/news.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/posting.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/Thumbs.db" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/app-icon72x72@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/Thumbs.db" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/admin-chrome.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/admin-firefox.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/admin-ie.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/admin-opera.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/admin-safari.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/adminPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/blogPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/landing.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/landingPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/loginPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/examples/sidebarPage.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/i/startup-640x1096.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/Thumbs.db" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/a5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/k.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/logoa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/logob.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/user07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/amazeui.datatables.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/amazeui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/amazeui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.responsive.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/echarts.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fullcalendar.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-2.1.0.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/moment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/theme.js" />
+    <list default="true" id="6668e663-7930-4933-b79a-98e253d727c5" name="Default" comment="关于manager更改的提交 将控制器名称修改为managerA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcello/controller/StdController.java" afterPath="$PROJECT_DIR$/src/main/java/com/marcello/controller/StdController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/marcello/WEB-INF/views/allstudent-list.jsp" afterPath="$PROJECT_DIR$/target/marcello/WEB-INF/views/allstudent-list.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/marcello/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/target/marcello/WEB-INF/views/login.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -168,36 +32,28 @@
       <file leaf-file-name="PostingController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/PostingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-667">
-              <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-              <folding>
-                <element signature="e#1367#1410#0" expanded="true" />
-                <element signature="e#1447#1490#0" expanded="true" />
-                <element signature="e#1508#1528#0" expanded="true" />
-                <element signature="e#1576#1603#0" expanded="true" />
-                <element signature="e#1657#2607#0" expanded="true" />
-                <element signature="e#1657#2607#0" expanded="true" />
-                <element signature="e#1699#1736#1" expanded="true" />
-                <element signature="e#1711#1735#0" expanded="true" />
-                <element signature="e#1749#2596#0" expanded="true" />
-                <element signature="e#1753#1771#0" expanded="true" />
-                <element signature="e#1753#1771#0" expanded="true" />
-                <element signature="e#1749#2596#0" expanded="true" />
-                <element signature="e#1791#1835#1" expanded="true" />
-                <element signature="e#1801#1834#0" expanded="true" />
-                <element signature="e#1862#1877#0" expanded="true" />
-                <element signature="e#1943#2596#0" expanded="true" />
-                <element signature="e#1943#2596#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <file leaf-file-name="ManagerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="107" column="7" lean-forward="true" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+            <state relative-caret-position="273">
+              <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student-list.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -238,20 +94,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marcello/service/impl/BusinessServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcello/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/StdController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/manager.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allbusiness-list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allsection-list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/business-list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posting.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posting-list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sign-up.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sign-up1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
@@ -259,7 +110,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/PostingController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/myupload.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/StdController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp" />
       </list>
     </option>
   </component>
@@ -321,55 +177,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="marcello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -378,8 +232,8 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -388,38 +242,49 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="marcello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marcello" type="462c0819:PsiDirectoryNode" />
+              <item name="reviewProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reviewProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -430,11 +295,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="spring" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -444,17 +311,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\IdeaWorkspace\marcello\src\main\webapp" />
-      <recent name="G:\IdeaWorkspace\marcello\src\main\webapp\WEB-INF\views" />
-      <recent name="G:\IdeaWorkspace\marcello\src\main\webapp\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\IdeaWorkspace\marcello\src\main\webapp\WEB-INF\views" />
       <recent name="G:\IdeaWorkspace\marcello\src\main\webapp" />
       <recent name="G:\IdeaWorkspace\marcello\src\main\java\com\marcello\service" />
       <recent name="G:\IdeaWorkspace\marcello\src\main\resources\mapper" />
       <recent name="G:\IdeaWorkspace\marcello\src\main\java\com\marcello\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IdeaWorkspace\marcello\src\main\webapp" />
+      <recent name="G:\IdeaWorkspace\marcello\src\main\webapp\WEB-INF\views" />
+      <recent name="G:\IdeaWorkspace\marcello\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -545,13 +412,13 @@
       <listeners />
     </configuration>
     <configuration name="marcello" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8089/page/login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/page/login" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="marcello:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/marcello" />
           </settings>
         </artifact>
         <artifact name="marcello:war exploded">
@@ -562,7 +429,6 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_marcello_2" />
-        <option name="HTTP_PORT" value="8089" />
         <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
@@ -648,46 +514,50 @@
       <updated>1533288987485</updated>
       <workItem from="1533288989766" duration="558000" />
       <workItem from="1533289598482" duration="10530000" />
+      <workItem from="1533303840801" duration="151000" />
+      <workItem from="1533373829840" duration="2005000" />
+      <workItem from="1533378404015" duration="4053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11088000" />
+    <option name="totallyTimeSpent" value="17297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31740975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49628845" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5037116" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03711559" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.050916497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.49628845" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5037116" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03711559" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,126 +566,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="关于manager更改的提交 将控制器名称修改为managerA" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于manager更改的提交 将控制器名称修改为managerA" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/dao/ManagerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/dao/StdDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/StdDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1524718824000" expanded="true" signature="874:902" ph="SELECT COUNT... student" />
-            <marker date="1524718824000" expanded="true" signature="1046:1111" ph="SELECT * FRO... student" />
-            <marker date="1524718824000" expanded="true" signature="1183:1362" ph="INSERT INTO studentoccasion... " />
-            <marker date="1524718824000" expanded="true" signature="1478:1522" ph="SELECT * FRO... student" />
-            <marker date="1524718824000" expanded="true" signature="1866:1908" ph="DELETE FROM student... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/StdService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/StdServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/PostingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/PostingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/BusinessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/ManagerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/BusinessServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/ManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/PostingService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/BusinessService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/ManagerServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/impl/BusinessServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/service/ManagerService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/impl/StdServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,15 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/impl/ManagerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,23 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/ManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,43 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/business-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2109">
           <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,21 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="e#89#128#1#JAVA" expanded="false" />
-            <element signature="e#103#127#0#JAVA" expanded="false" />
-            <element signature="e#133#240#1#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#170#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#177#200#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#205#228#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-            <element signature="e#151#239#0#JAVA" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,15 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-            <element signature="e#136#224#0#JAVA" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,15 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-            <element signature="e#284#372#0#JAVA" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,31 +700,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4895">
-          <caret line="218" column="28" lean-forward="false" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allsection-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,6 +715,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="110" column="53" lean-forward="false" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/impl/ManagerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="24" column="82" lean-forward="true" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+          <folding>
+            <element signature="e#1524#1578#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/service/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ManagerDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <marker date="1533303828916" expanded="true" signature="667:746" ph="SELECT * FRO... manager" />
+            <marker date="1533303828916" expanded="true" signature="862:945" ph="SELECT * FRO... section" />
+            <marker date="1533303828916" expanded="true" signature="1017:1045" ph="SELECT COUNT... section" />
+            <marker date="1533303828916" expanded="true" signature="1394:1428" ph="DELETE FROM section... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/dao/ManagerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1075,128 +780,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="68" column="28" lean-forward="false" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+        <state relative-caret-position="-53">
+          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
           <folding>
-            <element signature="e#2146#2169#0" expanded="false" />
-            <element signature="e#2146#2169#0" expanded="false" />
+            <element signature="e#1248#1265#0" expanded="false" />
+            <element signature="e#1315#1336#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="-1156">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-war-plugin/3.2.0/maven-war-plugin-3.2.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="124" column="31" lean-forward="false" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/allstudent-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/myupload.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="106" column="36" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
+        <state relative-caret-position="174">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-667">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posting.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="-51">
+          <caret line="100" column="39" lean-forward="true" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="43" />
-          <folding>
-            <element signature="e#1356#1386#0" expanded="false" />
-            <element signature="e#1470#1493#0" expanded="false" />
-            <element signature="e#1470#1493#0" expanded="false" />
-            <element signature="e#1983#2008#0" expanded="false" />
-            <element signature="e#1983#2008#0" expanded="false" />
-            <element signature="e#2092#2115#0" expanded="false" />
-            <element signature="e#2092#2115#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="215">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/PageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="761">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/StdController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#845#868#0" expanded="false" />
-            <element signature="e#845#868#0" expanded="false" />
-            <element signature="e#878#901#0" expanded="false" />
-            <element signature="e#878#901#0" expanded="false" />
-            <element signature="e#1087#1112#0" expanded="false" />
-            <element signature="e#1087#1112#0" expanded="false" />
-            <element signature="e#1232#1255#0" expanded="false" />
-            <element signature="e#1232#1255#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="87">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/PostingController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-          <folding>
-            <element signature="e#1367#1410#0" expanded="true" />
-            <element signature="e#1447#1490#0" expanded="true" />
-            <element signature="e#1508#1528#0" expanded="true" />
-            <element signature="e#1576#1603#0" expanded="true" />
-            <element signature="e#1657#2607#0" expanded="true" />
-            <element signature="e#1657#2607#0" expanded="true" />
-            <element signature="e#1699#1736#1" expanded="true" />
-            <element signature="e#1711#1735#0" expanded="true" />
-            <element signature="e#1749#2596#0" expanded="true" />
-            <element signature="e#1753#1771#0" expanded="true" />
-            <element signature="e#1753#1771#0" expanded="true" />
-            <element signature="e#1749#2596#0" expanded="true" />
-            <element signature="e#1791#1835#1" expanded="true" />
-            <element signature="e#1801#1834#0" expanded="true" />
-            <element signature="e#1862#1877#0" expanded="true" />
-            <element signature="e#1943#2596#0" expanded="true" />
-            <element signature="e#1943#2596#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="290">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="107" column="7" lean-forward="true" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+        <state relative-caret-position="377">
+          <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marcello/controller/PostingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="115" column="37" lean-forward="false" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/posting.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="86" column="18" lean-forward="true" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
           <folding />
         </state>
       </provider>

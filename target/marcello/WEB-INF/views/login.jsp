@@ -59,7 +59,7 @@
 						<label class="remember-me">学生</label>
 					</div>
 					<div class="xxx">
-						<input class="remember-me" type="radio" name="radio" value="2"  onclick="document.form1.action='/manager/sectionLogin'"/>
+						<input class="remember-me" type="radio" name="radio" value="2"  onclick="document.form1.action='/managerA/sectionLogin'"/>
 						<label class="remember-me">部门</label>
 					</div>
 					<div class="xxx">
@@ -67,7 +67,7 @@
 						<label class="remember-me">商户</label>
 					</div>
 					<div class="xxx">
-						<input class="remember-me" type="radio" name="radio" value="4"  onclick="document.form1.action='/manager/managerLogin'"/>
+						<input class="remember-me" type="radio" name="radio" value="4"  onclick="document.form1.action='/managerA/managerLogin'"/>
 						<label class="remember-me" >管理员</label><br />
 					</div>
 				</div>
