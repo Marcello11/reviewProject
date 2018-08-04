@@ -1,3 +1,4 @@
+<%--本页面用于对应角色的所有信息发布框--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
 String path = request.getContextPath();
@@ -53,7 +54,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     <ul>
                         <!-- 欢迎语 -->
                         <li class="am-text-sm tpl-header-navbar-welcome">
-                            <a href="javascript:;">欢迎你, <span>Marcello</span> </a>
+                            <a href="javascript:;">欢迎你, <span>${sessionScope.std.stdNum}</span> </a>
                         </li>
                         <!-- 退出 -->
                         <li class="am-text-sm">
@@ -98,7 +99,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             <!-- 菜单 -->
             <ul class="sidebar-nav">
                 <li class="sidebar-nav-link">
-                    <a href="/posting/getPosting" class="active">
+                    <a href="/posting/getPosting" >
                         <i class="am-icon-home sidebar-nav-link-logo"></i>全部信息
                     </a>
                 </li>
@@ -108,7 +109,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                     </a>
                 </li>
                 <li class="sidebar-nav-link">
-                    <a href="<%=basePath%>/html/upload.jsp">
+                    <a href="/posting/upload" class="active">
                         <i class="am-icon-wpforms sidebar-nav-link-logo"></i>我要发布
 
                     </a>

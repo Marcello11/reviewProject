@@ -163,7 +163,7 @@
                 </a>
             </li>
             <li class="sidebar-nav-link">
-                <a href="/manager/allsection-list">
+                <a href="/managerA/allsection-list">
                     <i class="am-icon-table sidebar-nav-link-logo"></i>部门信息管理
 
                 </a>
